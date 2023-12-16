@@ -43,10 +43,10 @@ Local Testing:
     Run -> Start Debugging OR Start Without Debugging
 6. If not installed, download Postman.
 7. On Postman:
-    a. Set the request type to "POST"
-    b. Paste the following to the URL Request: http://localhost:7071/api/search_site
-    c. Select "Body" -> "raw"
-    d. Paste the following to the JSON body:
+    1. Set the request type to "POST"
+    2. Paste the following to the URL Request: http://localhost:7071/api/search_site
+    3. Select "Body" -> "raw"
+    4. Paste the following to the JSON body:
         {
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
         }
@@ -66,18 +66,18 @@ Azure Testing:
 7. Select the function name "search_site" under "Functions" in the main Azure Function blade.
 8. Select "Get Function URL" and copy the link.
 9. On Postman:
-    a. Set the request type to "POST"
-    b. Paste the link you copied to the URL Request
-    c. Select "Body" -> "raw"
-    d. Paste the following to the JSON body:
-        {
+    1. Set the request type to "POST"
+    2. Paste the link you copied to the URL Request
+    3. Select "Body" -> "raw"
+    4. Paste the following to the JSON body:
+        `{
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
-        }
+        }`
 
     Sample URLs to try:
-        1. https://azure.microsoft.com/en-US
-        2. https://www.pluralsight.com/
-        3. https://www.linkedin.com/
+    1.  https://azure.microsoft.com/en-US
+    2.  https://www.pluralsight.com/
+    3.  https://www.linkedin.com/
 
 
 ## Resources
