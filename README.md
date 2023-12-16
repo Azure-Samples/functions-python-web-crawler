@@ -27,6 +27,7 @@ This sample shows how to crawl a website via a Python Azure Function using Beaut
 Local Testing:
 1. If not created, create local.settings.json.
 2. In local.settings.json, add the following:
+    
     `{
         "IsEncrypted": false,
         "Values": {
@@ -35,6 +36,7 @@ Local Testing:
             "AzureWebJobsFeatureFlags": "EnableWorkerIndexing"
         }
     }`
+
 3. If not installed, download the "Azurite" extension on Visual Studio Code.
   Info: Azurite is an open-source emulator providing a free local environment for testing Azure storage applications.
 4. At the top of the Visual Studio Code menu, select:
@@ -47,9 +49,9 @@ Local Testing:
     2. Paste the following to the URL Request: http://localhost:7071/api/search_site
     3. Select "Body" -> "raw"
     4. Paste the following to the JSON body:
-        {
+        `{
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
-        }
+        }`
 
     Sample URLs to try:
     1.  https://azure.microsoft.com/en-US
@@ -70,6 +72,7 @@ Azure Testing:
     2. Paste the link you copied to the URL Request
     3. Select "Body" -> "raw"
     4. Paste the following to the JSON body:
+
         `{
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
         }`
@@ -90,3 +93,10 @@ Additional information:
     - https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level&pivots=python-mode-decorators
 - BeautifulSoup4:
     - https://beautiful-soup-4.readthedocs.io/en/latest/
+
+## Contributing
+This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
