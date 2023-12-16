@@ -30,17 +30,11 @@ Local Testing:
     
     ```
     {
-
         "IsEncrypted": false,
-        
         "Values": {  
-        
             "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        
             "FUNCTIONS_WORKER_RUNTIME": "python",
-        
             "AzureWebJobsFeatureFlags": "EnableWorkerIndexing"
-        
         }
     }
     ```
