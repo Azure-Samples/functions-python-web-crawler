@@ -27,18 +27,18 @@ This sample shows how to crawl a website via a Python Azure Function using Beaut
 Local Testing:
 1. If not created, create local.settings.json.
 2. In local.settings.json, add the following:
-    {
+    `{
         "IsEncrypted": false,
         "Values": {
             "AzureWebJobsStorage": "UseDevelopmentStorage=true",
             "FUNCTIONS_WORKER_RUNTIME": "python",
             "AzureWebJobsFeatureFlags": "EnableWorkerIndexing"
         }
-    }
+    }`
 3. If not installed, download the "Azurite" extension on Visual Studio Code.
-    Info: Azurite is an open-source emulator providing a free local environment for testing Azure storage applications.
+  Info: Azurite is an open-source emulator providing a free local environment for testing Azure storage applications.
 4. At the top of the Visual Studio Code menu, select:
-    View -> Command Palette... -> Azurite: Start
+  View -> Command Palette... -> Azurite: Start
 5. At the top of the Visual Studio Code menu, select:
     Run -> Start Debugging OR Start Without Debugging
 6. If not installed, download Postman.
