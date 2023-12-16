@@ -60,9 +60,7 @@ Local Testing:
 
     ```    
         {
-
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
-        
         }
     ```
     
@@ -88,9 +86,7 @@ Azure Testing:
         
     ```
         {
-        
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
-        
         }
     ```
 
