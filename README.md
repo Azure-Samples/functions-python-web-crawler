@@ -28,7 +28,9 @@ Local Testing:
 1. If not created, create local.settings.json.
 2. In local.settings.json, add the following:
     
+    ```
     {
+
         "IsEncrypted": false,
         
         "Values": {  
@@ -41,7 +43,8 @@ Local Testing:
         
         }
     }
-    
+    ```
+
 3. If not installed, download the "Azurite" extension on Visual Studio Code.
   Info: Azurite is an open-source emulator providing a free local environment for testing Azure storage applications.
 4. At the top of the Visual Studio Code menu, select:
@@ -54,10 +57,14 @@ Local Testing:
     2. Paste the following to the URL Request: http://localhost:7071/api/search_site
     3. Select "Body" -> "raw"
     4. Paste the following to the JSON body:
-        
+
+    ```    
         {
+
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
+        
         }
+    ```
     
     Sample URLs to try:
     1.  https://azure.microsoft.com/en-US
@@ -79,9 +86,13 @@ Azure Testing:
     3. Select "Body" -> "raw"
     4. Paste the following to the JSON body:
         
-        {     
+    ```
+        {
+        
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
+        
         }
+    ```
 
     Sample URLs to try:
     1.  https://azure.microsoft.com/en-US
