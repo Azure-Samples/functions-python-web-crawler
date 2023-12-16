@@ -52,9 +52,9 @@ Local Testing:
         }
 
     Sample URLs to try:
-        1. https://azure.microsoft.com/en-US
-        2. https://www.pluralsight.com/
-        3. https://www.linkedin.com/
+    1.  https://azure.microsoft.com/en-US
+    2.  https://www.pluralsight.com/
+    3.  https://www.linkedin.com/
 
 Azure Testing:
 1. If not installed, download the "Azure" extension on Visual Studio Code.
@@ -86,7 +86,7 @@ Additional information:
 
 - Python Azure Functions:
     - https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python?pivots=python-mode-decorators
-- Python Developer Guide:
+- Azure Functions Python Developer Guide:
     - https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level&pivots=python-mode-decorators
 - BeautifulSoup4:
     - https://beautiful-soup-4.readthedocs.io/en/latest/
