@@ -1,5 +1,5 @@
 # Python Web Crawler
-This sample is meant to show how to crawl a website via a Python Azure Function using BeautifulSoup4 and extract specific pieces of information for manipulation/storage.
+This sample shows how to crawl a website via a Python Azure Function using BeautifulSoup4 and extract specific pieces of information for manipulation/storage.
 
 ## Getting Started
 
@@ -57,7 +57,6 @@ Local Testing:
         3. https://www.linkedin.com/
 
 Azure Testing:
-Azure:
 1. If not installed, download the "Azure" extension on Visual Studio Code.
 2. Click the "Azure" extension and authenticate using your Azure credentials.
 3. Hover the mouse over "WORKSPACE Local", and click on the Azure Function icon (a yellow Lightning bolt between blue arrows) and select "Create Function App in Azure..."
@@ -83,8 +82,11 @@ Azure:
 
 ## Resources
 
-Additional information on Python, Azure Functions, and BeautifulSoup4 can be found below:
+Additional information:
 
-- https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python?pivots=python-mode-decorators
-- https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level&pivots=python-mode-decorators
-- https://beautiful-soup-4.readthedocs.io/en/latest/
+- Python Azure Functions:
+    - https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python?pivots=python-mode-decorators
+- Python Developer Guide:
+    - https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level&pivots=python-mode-decorators
+- BeautifulSoup4:
+    - https://beautiful-soup-4.readthedocs.io/en/latest/
