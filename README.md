@@ -10,13 +10,13 @@ This sample shows how to crawl a website via a Python Azure Function using Beaut
     - https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local
 - An Azure Subscription.
     - https://azure.microsoft.com/en-us/free
-- Visual Studio Code
+- Visual Studio Code.
     - https://code.visualstudio.com/download
 
 - For Local Testing:
-    - Azurite Extension on VS Code for testing locally.
+    - Azurite Extension on VS Code.
         - https://marketplace.visualstudio.com/items?itemName=Azurite.azurite
-    - Postman
+    - Postman.
         - https://www.postman.com/downloads/
 
 
