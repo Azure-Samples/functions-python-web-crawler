@@ -8,11 +8,11 @@ products:
 name:
 - Python Web Crawler
 description:
-- This sample is meant to show how to crawl a website via a Python Azure Function using BeautifulSoup4 and extract specific pieces of information for manipulation/storage.
+- This sample shows how to crawl a website via a Python Azure Function using BeautifulSoup4 and extract specific information for manipulation/storage.
 ---
 
 # Python Web Crawler
-This sample shows how to crawl a website via a Python Azure Function using BeautifulSoup4 and extract specific pieces of information for manipulation/storage.
+This sample shows how to crawl a website via a Python Azure Function using BeautifulSoup4 and extract specific information for manipulation/storage.
 
 ## Getting Started
 
