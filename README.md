@@ -29,12 +29,19 @@ Local Testing:
 2. In local.settings.json, add the following:
     
     `{
+
         "IsEncrypted": false,
+        
         "Values": {  
+        
             "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        
             "FUNCTIONS_WORKER_RUNTIME": "python",
+        
             "AzureWebJobsFeatureFlags": "EnableWorkerIndexing"
+        
         }
+
     }`
 
 3. If not installed, download the "Azurite" extension on Visual Studio Code.
@@ -51,7 +58,9 @@ Local Testing:
     4. Paste the following to the JSON body:
         
         `{
+
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
+        
         }`
 
     Sample URLs to try:
@@ -74,8 +83,10 @@ Azure Testing:
     3. Select "Body" -> "raw"
     4. Paste the following to the JSON body:
 
-        `{           
+        `{     
+                  
            "url": "{ANY_URL_YOU_WANT_TO_TRY}"
+
         }`
 
     Sample URLs to try:
