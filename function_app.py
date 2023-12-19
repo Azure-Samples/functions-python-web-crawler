@@ -23,8 +23,7 @@ def search_site(req: func.HttpRequest) -> func.HttpResponse:
             url = req_body.get('url')
 
     if url:
-        is_url_valid = validators.url(url)
-        if is_url_valid:
+        if validators.url(url):
             response = orchestrator_function(url)
             return func.HttpResponse(f"{response}",
                                  status_code=200)
